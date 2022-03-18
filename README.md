@@ -1,0 +1,1 @@
+docker run -d -e DATABASE_URL=postgres://postgres:admin@192.168.1.18/diesel_demo -e ROCKET_ADDRESS=0.0.0.0 -e ROCKET_PORT=80 -p 8000:80 test-backend
